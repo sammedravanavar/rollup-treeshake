@@ -1,0 +1,22 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": ["last 2 versions", "explorer 11", "ios 9"]
+        },
+        "useBuiltIns": "usage",
+        "debug": false,
+        "modules": false
+      }
+    ],
+    "stage-0"
+  ],
+  "plugins": [
+    "syntax-dynamic-import",
+    "transform-decorators-legacy",
+    "transform-react-constant-elements",
+    "transform-react-inline-elements"
+  ]
+}
